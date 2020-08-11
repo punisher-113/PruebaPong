@@ -128,7 +128,8 @@ while not game_over:
     jugador1 = pygame.draw.rect(screen, PURPLE, (Player1_x_coord, Player1_y_coord, player_width, player_height)) ## Rectangulo 1
     jugador2 =pygame.draw.rect(screen, BLUE, (Player2_x_coord,Player2_y_coord, player_width, player_height))  ## Rectangulo 2
     ##Creacion pelota
-    pelota = pygame.draw.circle(screen,WHITE,(pelota_x,pelota_y),25)
+    pelota = pygame.draw.circle(screen,RED,(pelota_x,pelota_y),25)
+
     ##Zona de dibujo
 
 
